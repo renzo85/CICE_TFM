@@ -41,9 +41,52 @@
         "program5": "Bachiller en Administración de Negocios",
         "period5": "2003 – 2007"
     },
-    "skills": "R\nVer 7 validaciones de R\n7\nMiguel Useche y 6 contactos han validado esta aptitud.\nSQL\nVer 8 validaciones de SQL\n8\nMiguel Useche y 7 contactos han validado esta aptitud.\nBusiness Analysis\nVer 7 validaciones de Business Analysis\n7\nMiguel Useche y 6 contactos han validado esta aptitud.",
-    "sector_know": "Conocimiento del sector\nData Science\nVer 2 validaciones de Data Science\n2\nAnalytics\nVer 2 validaciones de Analytics\n2\nOperations Management\nVer 3 validaciones de Operations Management\n3\nRetail Banking\nVer 1 validación de Retail Banking\n1\nEstrategia empresarial\nVer 4 validaciones de Estrategia empresarial\n4\nVentas\nVer 2 validaciones de Ventas\n2\nAnálisis de negocio\nVer 1 validación de Análisis de negocio\n1\nAnálisis y estadística\nVer 1 validación de Análisis y estadística\n1\nConsultoría\nGestión de cambios\nProcesos de negocio\nPlanificación estratégica\nGestión de proyectos\nDiseño de interfaz (UED)\nDiseño de la interfaz de usuario\nPrototipado rápido\nGestión de relaciones con atención al cliente (CRM)",
-    "tools": "Herramientas y tecnologías\nPython\nVer 3 validaciones de Python\n3\nNoSQL\nVer 2 validaciones de NoSQL\n2\nHadoop\nVer 1 validación de Hadoop\n1\nMicrosoft Office\nVer 2 validaciones de Microsoft Office\n2\nMicrosoft Excel\nAfter Effects\nBlue Prism\nAdobe XD\nFigma",
-    "pers_skills": "Aptitudes interpersonales\nTeam Leadership\nVer 3 validaciones de Team Leadership\n3\nTeam Work\nVer 3 validaciones de Team Work\n3\nLiderazgo de equipos\nVer 3 validaciones de Liderazgo de equipos\n3\nCoaching\nVer 1 validación de Coaching\n1\nDirección",
-    "languages": "Idiomas\nInglés"
+    "skills": {
+        "skill_name1": "R",
+        "skill_value1": "7",
+        "skill_name2": "SQL",
+        "skill_value2": "8",
+        "skill_name3": "Business Analysis",
+        "skill_value3": "7"
+    },
+    "sector_know": {
+        "knowsect_name1": "Data Science",
+        "knowsect_name2": "Analytics",
+        "knowsect_name3": "Operations Management",
+        "knowsect_name4": "Retail Banking",
+        "knowsect_name5": "Estrategia empresarial",
+        "knowsect_name6": "Ventas",
+        "knowsect_name7": "Análisis de negocio",
+        "knowsect_name8": "Análisis y estadística",
+        "knowsect_name9": "Consultoría",
+        "knowsect_name10": "Gestión de cambios",
+        "knowsect_name11": "Procesos de negocio",
+        "knowsect_name12": "Planificación estratégica",
+        "knowsect_name13": "Gestión de proyectos",
+        "knowsect_name14": "Diseño de interfaz (UED)",
+        "knowsect_name15": "Diseño de la interfaz de usuario",
+        "knowsect_name16": "Prototipado rápido",
+        "knowsect_name17": "Gestión de relaciones con atención al cliente (CRM)"
+    },
+    "tools": {
+        "tool_name1": "Python",
+        "tool_name2": "NoSQL",
+        "tool_name3": "Hadoop",
+        "tool_name4": "Microsoft Office",
+        "tool_name5": "Microsoft Excel",
+        "tool_name6": "After Effects",
+        "tool_name7": "Blue Prism",
+        "tool_name8": "Adobe XD",
+        "tool_name9": "Figma"
+    },
+    "pers_skills": {
+        "skill_name1": "Team Leadership",
+        "skill_name2": "Team Work",
+        "skill_name3": "Liderazgo de equipos",
+        "skill_name4": "Coaching",
+        "skill_name5": "Dirección"
+    },
+    "languages": {
+        "language1": "Inglés"
+    }
 }
