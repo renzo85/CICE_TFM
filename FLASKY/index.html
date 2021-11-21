@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+
+    <style>
+        section{
+            display: flex;
+            background-color: #118ab2;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 2.5px;
+            border: 1px solid #073b4c;
+            height: 100px;
+            flex-wrap: wrap;
+            color: white;
+            font-weight: 600;
+        }
+
+        section1{
+            display: flex;
+            background-color: #2b2c2c;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 2.5px;
+            border: 1px solid #073b4c;
+            height: 100px;
+            flex-wrap: wrap;
+            color: white;
+            font-weight: 600;
+        }
+
+        section2{
+            display: flex;
+            background-color: #ffffff;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 2.5px;
+            border: 1px solid #073b4c;
+            height: 100px;
+            flex-wrap: wrap;
+            color: white;
+            font-weight: 600;
+        }
+
+    </style>
+
+
+
+    <div>
+    
+    <section>
+        <h1 style="display: flex; justify-content: center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Bienvenido a PrettyCV</h1>
+    </section>
+
+    <section1>
+        <h1 style="display: flex; justify-content: left;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size:80%;">
+            Instrucciones: <br />
+            (1) Presiona el botón Start Process para iniciar el proceso <br />
+            (2) Ingresa tus credenciales de LinkedIn en la terminal de git bash <br />
+            (3) Espera unos segundos luego de que la web de LinkedIn se cierre <br />
+            (4) Presiona el botón Download Pretty CV para descargar tu CV en formato Pretty :) <br />
+        </h1>
+    </section1>
+
+    <section2>
+        <button id="cv" onclick="createCV()"; style= "background:#2b2c2c; color:white; border-radius: 4px; font-size: 16px">Start Process
+        </button>
+    </section2>
+
+    <section2>
+         <a href="template_0_saved.docx" download="cv">
+            <button type="button"; style="background:#118ab2; color:white; border-radius: 4px; font-size: 16px">Download Pretty CV
+            </button>
+    </section2>
+
+    </div>
+    
